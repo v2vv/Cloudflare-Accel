@@ -20,7 +20,8 @@ const ALLOWED_HOSTS = [
   'api.github.com',
   'raw.githubusercontent.com',
   'gist.github.com',
-  'gist.githubusercontent.com'
+  'gist.githubusercontent.com', 
+  'docker.io'
 ];
 
 // RESTRICT_PATHS: 控制是否限制 GitHub 和 Docker 请求的路径。
