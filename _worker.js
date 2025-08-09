@@ -38,7 +38,7 @@ const RESTRICT_PATHS = true;
 const ALLOWED_PATHS = [
   'library',   // Docker Hub 官方镜像仓库的命名空间
   'lvhonyua',
-  'user-id-2',
+  'cmliu',
 ];
 
 // 用户配置区域结束 =================================
