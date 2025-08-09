@@ -28,7 +28,7 @@ const ALLOWED_HOSTS = [
 // - 设置为 true：只允许 ALLOWED_PATHS 中定义的路径关键字。
 // - 设置为 false：允许 ALLOWED_HOSTS 中的所有路径。
 // 示例：const RESTRICT_PATHS = true;
-const RESTRICT_PATHS = false;
+const RESTRICT_PATHS = true;
 
 // ALLOWED_PATHS: 定义 GitHub 和 Docker 的允许路径关键字。
 // - 添加新关键字：加入数组，如 'user-id-3' 或 'my-repo'。
@@ -37,7 +37,7 @@ const RESTRICT_PATHS = false;
 // 示例：const ALLOWED_PATHS = ['library', 'my-user', 'my-repo'];
 const ALLOWED_PATHS = [
   'library',   // Docker Hub 官方镜像仓库的命名空间
-  'user-id-1',
+  'lvhonyua',
   'user-id-2',
 ];
 
